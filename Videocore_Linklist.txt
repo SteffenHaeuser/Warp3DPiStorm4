@@ -1,0 +1,35 @@
+Infos as to the differences between Videocore IV and Videocore VI: There seems to be some reverse engineered documentation in the documents of the lib i posted for vc6: https://github.com/wimrijnders/V3DLib/blob/main/Doc/FAQ.md#what-are-the-differences-between-videocore-iv-and-vi
+
+Header-only VC6 Barematel able to render triangles, including also a simulator for v3d/qpu:  https://macoy.me/blog/programming/PiGPU
+
+3D Library with Source-Code for Videocore IV and Videocore VI, including docs with lots of infos on the Chipsets: https://github.com/wimrijnders/V3DLib
+
+Mesa3D Drivers: https://docs.mesa3d.org/drivers/v3d.html
+
+Videocore VI (Pi4) Baremetal examples for rendering triangles: https://github.com/Random06457/rpi4-gpu-bare-metal-examples/
+
+Unsorted Linklist:
+
+https://github.com/hermanhermitage/videocoreiv
+https://github.com/dwelch67/raspberrypi
+https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/
+https://github.com/raspberrypi/firmware
+https://github.com/raspberrypi/firmware/wiki/Accessing-mailboxes
+https://bitbanged.com/posts/understanding-rpi/the-mailbox/
+https://docs.mesa3d.org/drivers/vc4.html
+https://github.com/librerpi/lk-overlay/blob/master/arch/vpu/start.S
+https://github.com/itszor/binutils-vc4/blob/708acc851880dbeda1dd18aca4fd0a95b2573b36/bfd/elf32-vc4.c
+https://bakhi.github.io/mobileGPU/v3d/
+
+QPU VPM load/store:
+https://forums.raspberrypi.com/viewtopic.php?t=169576
+
+https://github.com/doe300/VC4CL/wiki/Hardware
+
+(rpi-playground)
+https://rpiplayground.wordpress.com/2014/05/03/hacking-the-gpu-for-fun-and-profit-pt-1/
+
+https://forums.raspberrypi.com/viewtopic.php?t=169576
+
+Paraj's Warp3D.library for Pi3 Proof-of-Concept: The code for my POC: https://github.com/mras0/vc4d
+
