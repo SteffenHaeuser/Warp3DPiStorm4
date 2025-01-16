@@ -29,6 +29,33 @@ https://github.com/doe300/VC4CL/wiki/Hardware
 (rpi-playground)
 https://rpiplayground.wordpress.com/2014/05/03/hacking-the-gpu-for-fun-and-profit-pt-1/
 
+Some more Info:
+
+Here's a direct link to the latest assembler:
+
+https://macoy.me/code/macoy/rpi-bare-metal/src/branch/master/tools/v3dAssembler.h
+
+There are other files, including the very small subset simulator, here:
+
+https://macoy.me/code/macoy/rpi-bare-metal/src/branch/master/tools
+
+The code in this file is a suitable reference:
+
+https://macoy.me/code/macoy/rpi-system/src/branch/master/sample/003-v3dtext/kernel.c#L307
+
+The binning and vertex shaders are below that, and are commented.
+
+The full assembly process is here:
+
+https://macoy.me/code/macoy/rpi-system/src/branch/master/sample/003-v3dtext/kernel.c#L2002
+
+v3d_qpu_validate() is an important safeguard after assembly because the V3D has some strange rules that are hard for humans to remember. Many of them carry over from the VideoCore IV and are documented in the public documentation for the IV.
+
+My notes may provide some insight:
+
+https://macoy.me/code/macoy/rpi-bare-metal/src/branch/master/tools/Shaders.org
+The webpage has sometimes connection problems it seems (right now), and all links need the login: human pw: noai access
+
 https://forums.raspberrypi.com/viewtopic.php?t=169576
 
 Paraj's Warp3D.library for Pi3 Proof-of-Concept: The code for my POC: https://github.com/mras0/vc4d
