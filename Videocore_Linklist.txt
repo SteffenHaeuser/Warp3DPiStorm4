@@ -63,3 +63,7 @@ Paraj's Warp3D.library for Pi3 Proof-of-Concept: The code for my POC: https://gi
 On PI Registers:
 
 https://rawgit.com/msperl/rpi-registers/master/rpi-registers.html 
+
+Mailbox Property Interface:
+
+https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface
